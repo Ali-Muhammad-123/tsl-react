@@ -1,0 +1,38 @@
+.room-details-card-div1{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+   
+}
+.room-details-card2{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+   
+}
+.room-details-card3{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.room-details-card3-heading1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.room-details-card-1stimg-div{
+    width: 100%;
+}
+.room-details-card-2ndimg-div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.room-details-card-2ndimg-innerdiv{
+    width: 49%;
+}
+.room-details-card-img{
+    object-fit: cover;
+    width: 100%;
+}

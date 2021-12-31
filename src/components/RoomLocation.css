@@ -1,0 +1,14 @@
+
+.location-content{
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    
+     
+}
+.restaurant-inner-content{
+    display: flex;
+    flex-direction: column;
+    gap:5px
+}

@@ -1,0 +1,22 @@
+.location-title{
+    font-size: 20px;
+}
+.location-text{
+    font-size: 12px;
+}
+.container {
+    padding: 40px;
+    width: 100%;
+    background: #419be0;
+  }
+  
+  .slick-slide img {
+    margin: auto;
+  }
+  
+  .booking-screen-benefits{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap:15px;
+  }

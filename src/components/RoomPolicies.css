@@ -1,0 +1,12 @@
+
+.room-policy-background{
+    background-color: #192242;
+    color: rgb(216, 216, 216)!important;
+}
+
+.room-policy-div{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding:20px;
+}

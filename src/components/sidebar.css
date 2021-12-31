@@ -1,0 +1,128 @@
+#header {
+    position: absolute;
+    width: 290px;
+    left:0px;
+    top:0px;
+  }
+  #header .pro-sidebar {
+    height: 100vh;
+  }
+  #header .closemenu {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    right: 0;
+    z-index: 9999;
+    line-height: 20px;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 22px;
+    
+    top: 10px;
+    cursor: pointer;
+  }
+  #header .pro-sidebar {
+    width: 100%;
+    min-width: 100%;
+  }
+  #header .pro-sidebar.collapsed {
+    width: 100px;
+    min-width: 100px;
+  }
+  .profile-sidebar{
+      display: flex;
+      justify-content: center;
+  }
+  .profile-image-div-sidebar{
+      background-color: wheat;
+      width: 70px;
+      height: 70px;
+      margin: 40px 0px 0px 0px;
+  }
+  .small-logo{
+      width: 40px;
+      height: 30px;
+  }
+ .submenu{
+     background-color: white;
+ }
+  .profile-namerole-sidebar{
+      text-align: center;
+  }
+  .logo-sidebar{
+      padding-left: 20px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+
+  .profile-name{
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+    .profile-role{
+        margin-top:0px;
+        margin-bottom: 10px;
+    }
+  #header .pro-sidebar-inner {
+    background-color: #1e3458;;
+    box-shadow: 0.5px 0.866px 2px 0px rgba(0, 0, 0, 0.15);
+  }
+  #header .pro-sidebar-inner .pro-sidebar-layout {
+    overflow-y: scroll;
+  }
+ 
+  #header .pro-sidebar-inner .pro-sidebar-layout ul {
+    padding: 0 5px;
+  }
+  #header .pro-sidebar-inner .pro-sidebar-layout ul .pro-inner-item {
+     font-size: 14px;
+    font-weight: 400;
+    font-family: "poppins", sans-serif;
+  }
+  #header .pro-sidebar-inner .pro-sidebar-layout ul .pro-inner-item .pro-icon-wrapper {
+    background-color: transparent;
+    color: #adadad;
+    border-radius: 3px;
+  }
+ 
+  #header .pro-sidebar-inner .pro-sidebar-layout .active {
+    background-image: linear-gradient(0deg, #fece00 0%, #ffe172 100%);
+  }
+  #header .logo {
+    padding: 20px;
+  }
+  .pro-sidebar .pro-menu .pro-menu-item > .pro-inner-item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 8px 8px 8px 5px;
+    cursor: pointer;
+}
+
+.pro-sidebar .pro-menu .pro-menu-item > .pro-inner-item:hover {
+    color: #adadad;
+}
+
+.pro-inner-item:hover{
+  background-color: #319665;
+font-weight: 600;
+transition: 0.5s ease-in-out;
+ 
+}
+     
+   
+  @media only screen and (max-width: 720px) {
+    html {
+      overflow: hidden;
+    }
+  }
+  .submenu-div{
+    padding-left: 20px;
+  }
+  .sidebar-title-head{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: "poppins", sans-serif;
+    padding: 15px;
+    
+  }

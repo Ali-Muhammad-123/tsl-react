@@ -1,0 +1,19 @@
+.hotel-detail-cards{
+   display: flex;
+   flex-direction: column;
+    gap: 5px;
+}
+.hotel-details-card-amenities-div{
+    display: flex;
+    justify-content: space-between;
+    gap:50px;
+    padding: 5px 0px;
+}
+
+.hotel-detail-card-img-div1{
+    width: 100%;
+}
+.hotel-detail-card-img{
+    object-fit:cover;
+    width: 100%;
+}
