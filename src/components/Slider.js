@@ -2,7 +2,7 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
-import 'slider/css';
+import './Slider.css';
 import { Slider } from '@mui/material';
 
 export default function SlickSlider()  {
